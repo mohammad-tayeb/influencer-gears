@@ -1,15 +1,23 @@
+/* full body font poppons */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
     font-size: large;
+    align-items: center;
 }
 
 .IP {
     font-size: x-large;
     font-weight: 700;
     padding-left: 10px;
+    color: #3A3A3A;
+    padding-left: 50px;
 }
 
 a {
@@ -22,4 +30,38 @@ a {
     padding-right: 20px;
 }
 
+/* font styling*/
+.largetext {
+    font-size: 50px;
+    margin-bottom: -20px;
+}
+
+.gray {
+    color: rgb(61, 61, 61);
+}
+
 /* section-1 start your journey */
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.section1 div {
+    width: 50%;
+}
+
+.button {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border: 1px solid white;
+    border-radius: 41px;
+    justify-content: space-between;
+}
+
+.camera {
+    padding-left: 80px;
+}
