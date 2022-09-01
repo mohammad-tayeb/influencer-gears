@@ -30,7 +30,7 @@ a {
     padding-right: 20px;
 }
 
-/* font styling*/
+/* font styling and basics*/
 .largetext {
     font-size: 50px;
     margin-bottom: -20px;
@@ -38,6 +38,26 @@ a {
 
 .gray {
     color: rgb(61, 61, 61);
+}
+
+.center {
+    padding-left: 380px;
+}
+
+h3 {
+    margin-bottom: -14px;
+}
+
+.small {
+    height: 61px;
+    left: 569px;
+    right: 675px;
+    bottom: 1812px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    color: #787885;
 }
 
 /* section-1 start your journey */
@@ -54,6 +74,7 @@ a {
 }
 
 .button {
+    text-decoration: none;
     background-color: #E02C6D;
     color: white;
     padding: 10px 24px;
@@ -64,4 +85,54 @@ a {
 
 .camera {
     padding-left: 80px;
+}
+
+/* section 3 company logos */
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    box-shadow: 0px 4px 0px rgba(136, 136, 136, 0.074), 0px -4px 0px rgba(136, 136, 136, 0.127);
+
+}
+
+/* section 3 grid layout collections */
+
+.section3 {
+    margin-top: 90px;
+    padding-left: 130px;
+    width: 1047px;
+    height: 1662px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collection {
+    width: 329px;
+    height: 476px;
+    left: 196px;
+    top: 1035px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.span {
+    padding-left: 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.golden {
+    color: #FB8200;
 }
